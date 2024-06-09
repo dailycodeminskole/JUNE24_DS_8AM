@@ -1,0 +1,81 @@
+#################################################
+#  09.06.2024 8.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Data Types in Python
+# 👉 Intro to Strings
+#################################################
+
+# Data Types in Python
+
+# https://docs.python.org/3/library/stdtypes.html
+
+'''
+1. Numbers
+    a. Int
+    b. Float
+    c. Complex
+2. Strings
+3. List
+4. Tuples
+5. Sets
+6. Dictionaries
+7. Boolean
+8. etc etc..
+'''
+
+# Numbers
+# Int
+x = 100
+n = 500
+
+
+# Float are decimals
+pi = 3.1417
+c = 3.3333
+
+# Complex
+z = 3+2j
+print(z)
+
+
+# Strings
+# anything in  ' '  " " or ''' ''' will be considered as String in python**
+
+name = 'Anagha'
+print(name)
+
+print(type(name)) #to get the datatype stored in the variable # 'str'
+# print(name+10) # error  : TypeError : datatype error
+print(name*5) # repetation
+print(name+name) #concatenation
+
+
+print('Good Morning!!!')
+# print('Good Morning , It's a nice day!!!')  #SyntaxError
+print("Good Morning , It's a nice day!!!")
+# print("gandhiji said , "you must speak truth only " ") #SyntaxError
+print('''gandhiji said , "you must speak truth only " ''') #SyntaxError
+
+num1 = 100
+print(type(num1))
+
+num2 = "100"
+print(type(num2))
+
+
+#  for more reading
+# https://www.w3schools.com/python/python_strings.asp
+# https://www.geeksforgeeks.org/python-programming-language-tutorial/
+
+
+#  class revision
+
+
+name =  'rahul'
+print(name)
+print(type(name))
+
+# print(name + 100) #TypeError
+print(name + name) #concatenation
+print(name * 5) #concatenation
